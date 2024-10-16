@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grayscale {
+  backdrop-filter: grayscale(50%);
+}
+
+.linear-gradient {
+  background-image: linear-gradient(to right, #000 55%, #00000000 100%);
+}
